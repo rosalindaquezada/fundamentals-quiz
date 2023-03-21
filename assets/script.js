@@ -1,8 +1,8 @@
 const questions = [
     {
-        question: "Inside which HTML element do we put the JavaScript?",
-        choices: ["a. <js>", "b. <javascript>", "c. <scripting>", "d. <script>"],
-        answer: "d. <script>"
+        question: "How do you create a function in JavaScript",
+        choices: ["a. function = myFunction()", "b. function myFunction()", "c. function:myFunction()", "d. createMyFunction()"],
+        answer: "b. function myFunction()"
     },
     {
         question: "String values must be enclosed within _____ when being assigned to variables.",
@@ -15,11 +15,6 @@ const questions = [
         answer: "b. other arrays"
     },
     {
-        question: "How do you create a function in JavaScript",
-        choices: ["a. function = myFunction()", "b. function myFunction()", "c. function:myFunction()", "d. createMyFunction()"],
-        answer: "b. function myFunction()"
-    },
-    {
         question: "To see if two variables are equal in an if / else statement you would use ____.",
         choices: ["a. =", "b. ==", "c. 'equals'", "d. !="],
         answer: "b. =="
@@ -30,6 +25,16 @@ const questions = [
         answer: "a. 0"
     },
     {
+        question: "Inside which HTML element do we put the JavaScript?",
+        choices: ["a. <js>", "b. <javascript>", "c. <scripting>", "d. <script>"],
+        answer: "d. <script>"
+    },
+    {
+        question: "Which event occurs when the user clicks on an HTML element?",
+        choices: ["a. onclick", "b. onchange", "c. onmouseover", "d. onmouseclick"],
+        answer: "a. onclick"
+    }
+    {
         question: "Who invented JavaScript?",
         choices: ["a. Douglas Crockford", "b. Sheryl Sandberg", "c. Brendan Eich", "d. Ben Javascript"],
         answer: "c. Brendan Eich"
@@ -39,11 +44,6 @@ const questions = [
         choices: ["a. //This is a comment", "b. <!--This is a comment-->", "c. 'This is a comment", "d. * This is a comment *"],
         answer: "a. //This is a comment"
     },
-    {
-        question: "Which event occurs when the user clicks on an HTML element?",
-        choices: ["a. onclick", "b. onchange", "c. onmouseover", "d. onmouseclick"],
-        answer: "a. onclick"
-    }
 ];
 
 // grab references to elements
@@ -83,7 +83,7 @@ var questionIndex = 0;
 var totalTime = 151;
 function newQuiz() {
     questionIndex = 0;
-    totalTime = 150;
+    totalTime = 155;
     timeLeft.textContent = totalTime;
     initialInput.textContent = "";
 
