@@ -33,7 +33,7 @@ const questions = [
         question: "Which event occurs when the user clicks on an HTML element?",
         choices: ["a. onclick", "b. onchange", "c. onmouseover", "d. onmouseclick"],
         answer: "a. onclick"
-    }
+    },
     {
         question: "Who invented JavaScript?",
         choices: ["a. Douglas Crockford", "b. Sheryl Sandberg", "c. Brendan Eich", "d. Ben Javascript"],

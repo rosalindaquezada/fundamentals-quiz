@@ -2,4 +2,4 @@
 
 ## Timed Quiz
 
-In this challenge we created a quiz on the javascript fundamentals. 
+In this challenge we created a quiz on the javascript fundamentals. !
